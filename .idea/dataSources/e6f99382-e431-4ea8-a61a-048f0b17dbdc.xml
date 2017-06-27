@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="WEATHER">
+      <ObjectId>101</ObjectId>
+      <IntrospectionTimestamp>2017-06-26.21:57:01</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="RYNKOVOY">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="USER1">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLD_DB">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="NEW_DB">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="YANBERADMIN">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="PRACTIC4">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="RYNKOVOY_EAV">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="HW5">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="TASK5">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="TASK6">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="TASK7">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="ADMIN">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="USER5">
+      <ObjectId>68</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="ALA">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="ALSA">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="CHEN">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="DEHAAN">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="JOHNCHEN">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="COLMENARES">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="DAVIES">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="CAMBRAULT">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="NANETTECAMBRAULT">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="DORAN">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="DELLINGER">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="CABRIO">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="CHUNG">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="DILLY">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="AUSTIN">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="BAIDA">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="BISSOT">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="ATKINSON">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="BERNSTEIN">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="ANDE">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="BANDA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="BLOOM">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="BATES">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="ABEL">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="BULL">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="BELL">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="BAER">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="FINAL_TEST">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="FINAL_TASK_BANK">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="FINAL_TASK_MASTER">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+  </database-model>
+</dataSource>

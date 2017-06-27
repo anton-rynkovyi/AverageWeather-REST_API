@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="NetcrackerWeather:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="netcracker-weather-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="NetcrackerWeather:war exploded" />
+    </root>
+  </artifact>
+</component>
