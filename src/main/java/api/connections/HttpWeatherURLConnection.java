@@ -1,6 +1,7 @@
 package api.connections;
 
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
@@ -9,6 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 @Component
+@Scope(value = "prototype")
 public class HttpWeatherURLConnection {
 
     public String sendGet(String url) {

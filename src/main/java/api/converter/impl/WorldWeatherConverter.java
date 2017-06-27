@@ -22,7 +22,7 @@ public class WorldWeatherConverter implements WeatherConverter {
     HttpWeatherURLConnection httpWeatherURLConnection;
 
     public Weather convertJsonToWeather() {
-        String json = httpWeatherURLConnection.sendGet(WeathersEnum.WORLDWEATHER.toString());
+        String json = httpWeatherURLConnection.sendGet(WeathersEnum.WORLD_WEATHER.toString());
         JsonParser parser = new JsonParser();
         JsonObject mainObject = parser.parse(json).getAsJsonObject();
         JsonObject data = mainObject.getAsJsonObject("data");
@@ -32,7 +32,7 @@ public class WorldWeatherConverter implements WeatherConverter {
         JsonElement windspeedMiles = currentCondition.get(0).getAsJsonObject().get("windspeedMiles");
         Weather weather = new Weather(tempC.toString().replace("\"",""), tempF.toString().replace("\"",""),
                 windspeedMiles.toString().replace("\"",""),
-                WeathersEnum.WORLDWEATHER.name(), new Date(System.currentTimeMillis()));
+                WeathersEnum.WORLD_WEATHER.name(), new Date(System.currentTimeMillis()));
         return weather;
     }
 }

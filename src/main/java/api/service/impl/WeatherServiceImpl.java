@@ -10,6 +10,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonWriter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -21,6 +22,7 @@ import java.util.*;
 
 
 @Service
+@Scope(value = "prototype")
 public class WeatherServiceImpl implements WeatherService {
 
     @Autowired
@@ -31,7 +33,6 @@ public class WeatherServiceImpl implements WeatherService {
 
     public void insert() {
         for (WeathersEnum apiUrl : WeathersEnum.values()) {
-            System.out.println(apiUrl.toString());
             WeatherConverter weatherConverter = weatherApiConverterChooser.getWeatherConverter(apiUrl.toString());
             Weather weather = weatherConverter.convertJsonToWeather();
             weatherDao.insert(weather);

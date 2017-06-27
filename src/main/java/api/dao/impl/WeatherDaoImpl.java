@@ -5,6 +5,7 @@ import api.dao.WeatherDao;
 import api.weather.Weather;
 import api.weather.WeathersEnum;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
@@ -19,6 +20,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 @Repository
+@Scope(value = "prototype")
 public class WeatherDaoImpl implements WeatherDao {
 
     @Autowired
