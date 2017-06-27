@@ -40,8 +40,8 @@
     <bean id="simpleTrigger"
           class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
         <property name="jobDetail" ref="weatherJob" />
-        <property name="repeatInterval" value="90000" /> <!--15min = 900000mls-->
-        <property name="startDelay" value="90000" />
+        <property name="repeatInterval" value="900000" /> <!--15min = 9000000mls-->
+        <property name="startDelay" value="900000" />
     </bean>
 
     <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
